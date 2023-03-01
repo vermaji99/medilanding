@@ -20,7 +20,7 @@ margin-right: 20px;
     .nav-toggle{
         display:block;
     }*/
-@media screen and (min-width:991px) and (max-width: 1600px) {
+@media screen and (min-width:914px) and (max-width: 1600px) {
     .nav-toggle{
      display: none;
     }
@@ -32,18 +32,33 @@ margin-right: 20px;
     
 
   }
-  @media screen and (min-width: 550px) and (max-width:950px){
+  @media screen and (min-width:1px) and (max-width:414px){
   .linkji{
     position: absolute;
     background:linear-gradient(to right, #000000 , #fbff00);
-    left:-100%;
+    left:-150%;
     top:100%;
     width:100%;
     padding-block:20px;
     transition:0.2s ease-in-out;
 }
+.logo img{
+    max-width:40px;
+}
+.save h1{
+    font-size:2rem;
+}
+.ee img{
+    max-width:200px;
+}
 .linkji.active{
     left:0;
+}
+.qop{
+    margin-top:80px;
+}
+.coi{
+    margin-top:80px;
 }
 .linkji ul{
     flex-direction:column;
@@ -65,23 +80,28 @@ margin-right: 20px;
     max-width: 100vw;
    }
    .mdq{
-    max-width:80vw;
-    margin-left: 90px;
-
+    margin-left: 75px;
+     gap:20px;
+     max-width:100px;
+   }
+   .uoo{
+    width: 100%;
    }
    .macha{
-    gap: 40px;
+    gap: 10px;
     margin-left:0px;
+    margin-top:0px;
    }
-   .company{
-    margin-left: 80px;
-   }
+   /*.company{
+    margin-left: 0px;
+   }*/
    .log{
     width: 100%;
    }
    
    .qop{
     flex-direction: column-reverse;
+    gap:90px;
    }
    .coi{
     flex-direction: column;
@@ -100,12 +120,13 @@ margin-right: 20px;
    .one{
     gap:10px;
     margin-left:30px;
+    padding:5px;
    }
    .pad{
-      padding:10px*;
+      padding:10px;
    }
    .macha img{
-           width: 100px;
+           width: 60px;
    }
 
    .lio{
@@ -115,8 +136,26 @@ margin-right: 20px;
     text-align: center;
     margin-left:  -30px;
 }
+.company{
+    margin-top: 60px;
+}
+.comp{
+    margin-left:10px;
+}
+.mm img{
+    margin-top:0;
+}
+.topbanner{
+    background-size: 200px;
+}
+.top-text{
+    font-size:15px;
+    font-weight: 300;
+}
+.sub{
+    gap:30px;
   }
-  @media screen and (min-width: 1px) and (max-width:550px){
+  @media screen and (min-width: 1px) and (max-width:414px){
      h1{
         font-size: 2rem;
     }
@@ -127,7 +166,8 @@ margin-right: 20px;
         font-size:1rem;
     }
     .left img{
-        max-width: 100%;
+        max-width:200px;
+        margin-top:10px;
     }
     .ip img{
            max-width: 100%;
@@ -140,10 +180,10 @@ margin-right: 20px;
     }
 
     .macha{
-        gap: 40px;
-        margin-left:0px;
+        gap: 10px;
        }
        .company{
-        margin-left: 80px;
+        margin-left:20px;
        }
+  }
   }
